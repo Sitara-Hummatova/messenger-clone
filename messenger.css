@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+ 
+
+body{
+    width:100%;
+    overflow-x: hidden;
+   
+    
+    
+
+}
+a{
+  color:#000;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif ;}
+
+ ul,li{
+  list-style-type:none;
+ }
+  
+ img{
+  max-width: 100%;
+ }
+
+ .container{
+  display: flex;
+  padding: 10px;
+  padding: 0 7px;
+ 
+
+ 
+}
+   /*navigaton */
+ nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    width: 100%;
+    border-bottom: 1px  #dbd8d8;
+    box-shadow: 0 0.3px 2px 1px hsl(0, 6%, 88%);
+ }
+  
+     .button{
+    display: flex;
+   
+  }
+   .button img{
+    align-self: center;
+   }
+  
+    input{
+    border-radius: 30px;
+    position: relative;
+    background-color: #F0F2F5;
+    border: 1px;
+    margin-left: 5px;
+    padding: 0 35px;
+    width: 250px;
+    height: 40px;
+    align-self: center;
+   
+   
+    
+ }
+  .searchicon{
+    position: absolute;
+    align-self: center;
+    left: 5%;
+    z-index: 1;
+    opacity:0.5;
+    
+  }
+   ::placeholder{
+    text-align: center;
+    font-size: 16px;
+   
+   }
+  
+    .right{
+        padding-right: 10px;
+    }
+   
+    nav ul{
+      display: flex;
+      justify-content: space-evenly;
+    }
+   .icons{
+    padding: 5px 12px;
+    cursor: pointer;
+    display: inline-table;
+    margin-right: 25px;
+    border-radius: 5px;
+   }
+    .icons:hover{
+      background-color: #F0F2F5;
+    }
+    
+   .icon2{
+   cursor: pointer;
+   background-color: #F0F2F5;
+   border-radius: 50%;
+   padding: 10px 13px;
+   align-self: center;
+   }
+  
+   .icon2:hover{
+    background-color: #dbd8d8;
+   }
+
+    
+      /*sol teref*/
+      .soldiv 
+      {
+         display: flex;
+         flex-direction: column;
+         padding: 3px 5px;
+         width: 25%;
+         border-right: 1px solid #c4c2c2;
+        
+      }
+      
+       .soldiv2{
+        display: flex;
+        flex-direction: column;
+        height: 600px;
+        overflow-y: scroll;
+
+       }
+ 
+         .soldiv  ul li a{
+           display: flex;
+           align-items: center;
+           padding: 3px 15px;
+           border-radius: 15px;
+          
+ 
+         }
+          .soldiv  ul li a:hover{
+           background-color: rgb(238, 238, 238);
+          }
+           
+          .soldiv ul li a .icon{
+           width: 20%;
+           margin-right: 10px;
+          }
+         
+            .find{
+              width: 310px;
+              padding: 9px 40px;
+              position: relative;
+              margin-bottom: 17px;
+              border: 1px  grey;
+              background-color: #F0F2F5;
+              margin-right: 10px;
+            }
+             .findicon{
+              position: absolute;
+              top:21%;
+              z-index: 1;
+              left: 2.5%;
+              opacity: 0.5;
+              
+             }
+              h3{
+                padding: 15px;
+                font-size: 25px;
+                font-family: Arial, Helvetica, sans-serif;}
+            
+      /*sag teref*/
+
+       .sagdiv{
+
+        display: flex;
+        border-bottom: 1px solid rgb(236, 231, 231);
+        box-shadow: 0 0.3px 1px 1px hsl(0, 20%, 95%);
+        justify-content: space-between;
+        height: 70px;
+        width: 100%;
+
+       }
+        .friendsname{
+        
+          display: flex;
+          flex:1;
+          justify-content: space-between;
+          padding: 10px 10px;
+        
+        }
+        .sagdivsvg{
+          display: flex;
+          align-self: flex-end;
+          align-items: center;
+          padding: 5px;
+         
+          
+        }
+         .sagdivadsekil{
+          display: flex;
+          align-items: center;
+         }
+    .friendsname h3{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    }
+       .mpi{
+        border-radius: 50%;
+       
+       }
+       .mpi:hover{
+        background-color: #ebe7e7;
+       }
+        
+      .sagdivadsekil{
+        border-radius: 7px;
+        
+      }
+      .sagdivadsekil:hover{
+        background-color: #ebe7e7;
+      }
+       
+        
+       
